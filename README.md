@@ -1,57 +1,60 @@
-# Case Study
-Create an Employee Management project.
+<h1 align="center"><img src="https://assets.infyom.com/open-source/infyom-logo.png" alt="InfyOm"></h1>
 
-### For Backend Engineer
-- Developer must use [Laravel](https://laravel.com/) framework
-- Developer can use any of following frontend framework (React, Vue) or Blade components
+# Laravel Boilerplate for AdminLTE Theme
 
-### For Frontend Engineer
-- Developer must use [React.js](https://reactjs.org/) or [CRA](https://create-react-app.dev/)
-- Developer must use [MUI](https://mui.com/)
-- Developer must use [React-router](https://github.com/remix-run/react-router)
-- Developer can use [`json-server`](https://github.com/typicode/json-server) to mock the API or [Firebase](https://firebase.google.com/).
+Laravel Boilerplate with [AdminLTE](https://adminlte.io/) Theme with [InfyOm Laravel Generator](https://github.com/InfyOmLabs/laravel-generator).
+Following things are ready to be used directly with AdminLTE Theme.
 
-### For QA
-- Developer must create e2e test cases using [Cypress.io](https://www.cypress.io/)
-- Developer must follow the requirements provided
-- Developer can generate your own attributes for the HTML element
+- Signup
+- Login
+- Forgot Password
+- Password Reset
+- Home Layout with Sidebar
 
-### For UI Designer
-- Designer must create a prototype using [Figma](http://figma.com/) or [Adobe XD](https://www.adobe.com/products/xd)
-- Designer must follow the requirements provided
-- Designer cannot replicate the mock below
+## Packages Installed
 
-# Instructions
-**Backend/Frontend/QA**
-1. Fork this repository
-2. Create a pull request to this repo when you are done
-3. Commits to be written following the Conventional Commits specification
+- InfyOm Laravel Generator
+- AdminLTE Templates
+- Laravel UI
+- Laravel Collective
 
-**Designer**
-1. Reply the email with the working files
+## Usage
 
-# Requirements
-1. As a User, I want to login.
-2. As a User, I want to add/edit/create employees.
-3. As a User, I want to add/edit/create addresses.
-4. As a User, I want to assign address to employees.
+1. Clone/Download a repo.
+2. Copy `.env.example` file to `.env` & Setup your environment variables
+3. Run `composer install`
+4. Generate application key by running `php artisan key:generate`
 
-# Bonus Tasks
-1. As a User, I want to get email verification when I sign up.
-2. As a User, I want to filter employees based on their addresses.
-3. As a User, I want to view historical deleted employees.
-4. As a User, I want to assign roles to employees.
+Once everything is installed, you are ready to go with generator.
 
-### For Backend Engineer
-1. Deploy the application
-2. Add Unit Tests
+## Support Us
 
-### For Frontend Engineer
-1. Application UI adhere to the [mock](https://www.figma.com/file/PJS5uZNqDxmIRJJXiwHTdx/Case-Study) and [prototype](https://www.figma.com/proto/PJS5uZNqDxmIRJJXiwHTdx/Case-Study?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=10%3A7372&hide-ui=1).
+We have created [14+ Laravel packages](https://github.com/InfyOmLabs) and invested a lot of resources into creating these all packages and maintaining them.
 
-### For QA
-1. Test cases to follow to the application [prototype](https://www.figma.com/proto/PJS5uZNqDxmIRJJXiwHTdx/Case-Study?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=10%3A7372&hide-ui=1) flow.
+You can support us by either sponsoring us or buying one of our paid products. Or help us by spreading the word about us on social platforms via tweets and posts.
 
-### For UI Designer
-1. Designer should use their own creativity when creating the prototype. 
-2. Animated prototype is a plus.
+### Sponsors
+
+[Become a sponsor](https://opencollective.com/infyomlabs#sponsor) and get your logo on our README on Github with a link to your site.
+
+<a href="https://opencollective.com/infyomlabs#sponsor"><img src="https://opencollective.com/infyomlabs/sponsors.svg?width=890"></a>
+
+### Backers
+
+[Become a backer](https://opencollective.com/infyomlabs#backer) and get your image on our README on Github with a link to your site.
+
+<a href="https://opencollective.com/infyomlabs#backer"><img src="https://opencollective.com/infyomlabs/backers.svg?width=890"></a>
+
+### Buy our Paid Products
+
+[![InfyHMS](https://assets.infyom.com/open-source/infyhms-banner.png)](https://1.envato.market/6by5EQ)
+
+You can also check out our other paid products on [CodeCanyon](https://codecanyon.net/user/infyomlabs/portfolio).
+
+### Follow Us
+
+- [Twitter](https://twitter.com/infyom)
+- [Facebook](https://www.facebook.com/infyom)
+- [LinkedIn](https://in.linkedin.com/company/infyom-technologies)
+- [Youtube](https://www.youtube.com/channel/UC8IvwfChD6i7Wp4yZp3tNsQ)
+- [Contact Us](https://infyom.com/contact-us)
